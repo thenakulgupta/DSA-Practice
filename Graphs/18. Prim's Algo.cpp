@@ -39,7 +39,7 @@ int primAlgo(list<Edge*> edges[], int n) {
     for (int i = 0;i < n;i++) {
         vis[i] = false;
     }
-    priority_queue<PII, vector<PII>, Compare>pq;
+    priority_queue<PII, vector<PII>, Compare> pq;
     pq.push({ 0,0 });
     int ans = 0;
     while (!pq.empty()) {
@@ -57,6 +57,12 @@ int primAlgo(list<Edge*> edges[], int n) {
 }
 
 int main() {
+    /*
+             0 ---- 2
+           /  \    /
+          /    \  /
+         1 ---- 3
+    */
     int n = 4;
     list<Edge*> edges[n];
     edges[0].push_back(new Edge(0, 1, 10));

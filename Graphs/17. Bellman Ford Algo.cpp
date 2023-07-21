@@ -48,6 +48,19 @@ void bellmanFordAlgo(list<Edge*> edges[], int n) {
 }
 
 int main() {
+    /*
+
+             0
+           /  \
+          v    v
+         1 ---> 2
+         ^       /
+         \      v
+          \     3
+           \   /
+            \ v
+             4
+    */
     int n = 5;
     list<Edge*> edges[n];
     edges[0].push_back(new Edge(0, 1, 2));
