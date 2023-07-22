@@ -1,16 +1,26 @@
 /*
     Probleam: Find Number of closed islands.
 
-    Input:
-    3 3 1 1 2
-    1 1 1
-    1 1 0
-    1 0 1
+    Input #1:
+    3 3
+    1 0 0
+    0 1 0
+    0 0 1
 
-    Output:
-    2 2 2
-    2 2 0
-    2 0 1
+    Output #1:
+    1
+
+
+    Input #2:
+    5 8
+    0 0 0 0 0 0 0 1
+    0 1 1 1 1 0 0 1
+    0 1 0 1 0 0 0 1
+    0 1 1 1 1 0 1 0
+    0 0 0 0 0 0 0 1
+
+    Output #2:
+    11
 */
 
 #include <iostream>
