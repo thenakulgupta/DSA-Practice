@@ -18,7 +18,8 @@ int find_function(int a) {
     if (par[a] == a) {
         return a;
     }
-    return find_function(par[a]);
+    par[a] = find_function(par[a]);
+    return par[a];
 }
 
 void union_function(int a, int b) {
