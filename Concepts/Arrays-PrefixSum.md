@@ -59,7 +59,7 @@ int main() {
 In this example, the prefix sums of the input array `{3, 2, 8, 4, 9, 1, 5}` are precomputed, and then the sum of elements in the range `[2, 5]` is efficiently calculated using the prefix sums. The output will be:
 
 ```
-Sum of elements in range [2, 5] is: 19
+Sum of elements in range [2, 5] is: 22
 ```
 
 ### Time Complexity:
