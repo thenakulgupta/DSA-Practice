@@ -1,0 +1,1 @@
+{"name":"Local: test","url":"/Users/nakulgupta/Github/NakulGupta/test.cpp","tests":[{"id":1693054400600,"input":"25","output":""},{"id":1693486872985,"input":"49","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/nakulgupta/Github/NakulGupta/test.cpp","group":"local","local":true}
